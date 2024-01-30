@@ -23,13 +23,10 @@ const regExp = /^\s*?[\+\-]?0*?[1-9]\d{5}\s*?$/g;
 
 numbers.forEach((num) => {
   console.log(num, "|", regExp.test(num));
+  regExp.test(num);
 });
 
 
 
 
-console.log("    -0123456     ", "|", regExp.test("    -0123456     "));
-console.log("    -0123456     ", "|", regExp.test("    -0123456     "));
-console.log("    -0123456     ", "|", regExp.test("    -0123456     "));
-console.log("    -0123456     ", "|", regExp.test("    -0123456     "));
-console.log("    -0123456     ", "|", regExp.test("    -0123456     "));
+
