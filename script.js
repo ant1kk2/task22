@@ -25,4 +25,11 @@ numbers.forEach((num) => {
   console.log(num, "|", regExp.test(num));
 });
 
+
+
+
+console.log("    -0123456     ", "|", regExp.test("    -0123456     "));
+console.log("    -0123456     ", "|", regExp.test("    -0123456     "));
+console.log("    -0123456     ", "|", regExp.test("    -0123456     "));
+console.log("    -0123456     ", "|", regExp.test("    -0123456     "));
 console.log("    -0123456     ", "|", regExp.test("    -0123456     "));
